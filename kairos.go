@@ -91,5 +91,5 @@ func main() {
 
 	timeToConvert := time.Date(year, time.Month(mon), day, hour, min, 0, 0, time.FixedZone(fmt.Sprintf("UTC-%02.1f", zone), int(zone*60*60)))
 
-	fmt.Printf("<t:%d:%s>", timeToConvert.Unix(), mode)
+	fmt.Printf("<t:%d:%s>\n", timeToConvert.Unix(), mode)
 }
