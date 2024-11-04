@@ -1,3 +1,3 @@
-module ellifteria/discord-timestamp-generator
+module ellifteria/kairos
 
 go 1.23.2
